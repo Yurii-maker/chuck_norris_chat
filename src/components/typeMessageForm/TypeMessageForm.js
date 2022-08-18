@@ -5,7 +5,11 @@ import {keys} from "../../constants";
 
 
 const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setFoundContacts}) => {
-    const {register, handleSubmit, reset} = useForm();
+    const {
+        register,
+        handleSubmit,
+        reset
+    } = useForm();
 
     const contactsSort = () => {
         const sortedContacts = [];

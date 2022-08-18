@@ -6,7 +6,12 @@ import {TypeMessageForm} from "../typeMessageForm/TypeMessageForm";
 import {MyContext} from "../../pages";
 
 const Chat = () => {
-    const {chatMessages, setChatMessages, foundContacts, setFoundContacts} = useContext(MyContext);
+    const {
+        chatMessages,
+        setChatMessages,
+        foundContacts,
+        setFoundContacts
+    } = useContext(MyContext);
 
     const location = useLocation();
 
@@ -19,8 +24,11 @@ const Chat = () => {
             {
                 messages.map((message, i) => <Message key={i} text={message}/>)
             }
-            <TypeMessageForm id={id} chatMessages={chatMessages} setChatMessages={setChatMessages}
-                             setFoundContacts={setFoundContacts} foundContacts={foundContacts}/>
+            <TypeMessageForm id={id}
+                             chatMessages={chatMessages}
+                             setChatMessages={setChatMessages}
+                             setFoundContacts={setFoundContacts}
+                             foundContacts={foundContacts}/>
         </div>);
 };
 

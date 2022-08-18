@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="add idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chat/Chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chat/Chat.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chat/asd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foundChat/FoundChat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foundChat/FoundChat.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/message/Message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/message/Message.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typeMessageForm/TypeMessageForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typeMessageForm/TypeMessageForm.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DU4SXbExlWQjBlDufNC00MTBoS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="" />
+      <created>1660740333418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660740333418</updated>
+      <workItem from="1660740336513" duration="5072000" />
+      <workItem from="1660756136650" duration="383000" />
+      <workItem from="1660763891840" duration="475000" />
+      <workItem from="1660803900954" duration="103000" />
+      <workItem from="1660804015379" duration="14173000" />
+      <workItem from="1660819800265" duration="3117000" />
+      <workItem from="1660822947317" duration="304000" />
+      <workItem from="1660823263302" duration="646000" />
+      <workItem from="1660826338686" duration="370000" />
+    </task>
+    <task id="LOCAL-00001" summary="logic - done">
+      <created>1660822615938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660822615938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deleted">
+      <created>1660822990513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660822990513</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add idea">
+      <created>1660823118315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660823118315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="logic - done" />
+    <MESSAGE value="deleted" />
+    <MESSAGE value="add idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add idea" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

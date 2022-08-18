@@ -1,5 +1,9 @@
 const Message = ({text}) => {
-    const {message, date, fromUser} = text;
+    const {
+        message,
+        date,
+        fromUser
+    } = text;
 
     let className = '';
 

@@ -5,7 +5,10 @@ const Contacts = ({foundContacts, chatMessages}) => {
 
     return (
         <div>
-            {sortedContacts.map(contact => <Contact key={contact.id} contact={contact} chatMessages={chatMessages}/>)}
+            {sortedContacts.map(contact => <Contact
+                key={contact.id}
+                contact={contact}
+                chatMessages={chatMessages}/>)}
         </div>);
 };
 

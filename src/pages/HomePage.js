@@ -4,7 +4,7 @@ import {createContext, useState} from "react";
 import {Main} from "../components";
 import {contacts, messages} from "../storage";
 import {keys} from "../constants";
-import './HomePage.css';
+import './HomePage.scss';
 
 export const MyContext = createContext({});
 
@@ -18,9 +18,16 @@ const HomePage = () => {
 
     return (
         <div className={'HomePage'}>
-            <MyContext.Provider value={{chatMessages, setChatMessages, foundContacts, setFoundContacts}}>
-                <Main chatMessages={chatMessages} foundContacts={foundContacts} setFoundContacts={setFoundContacts}
-                      foundChats={foundChats} setFoundChats={setFoundChats}/>
+            <MyContext.Provider value={{
+                chatMessages,
+                setChatMessages,
+                foundContacts,
+                setFoundContacts}}>
+                <Main chatMessages={chatMessages}
+                      foundContacts={foundContacts}
+                      setFoundContacts={setFoundContacts}
+                      foundChats={foundChats}
+                      setFoundChats={setFoundChats}/>
                 <Outlet/>
             </MyContext.Provider>
         </div>

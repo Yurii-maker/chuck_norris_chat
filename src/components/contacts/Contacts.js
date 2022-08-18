@@ -8,7 +8,8 @@ const Contacts = ({foundContacts, chatMessages}) => {
             {sortedContacts.map(contact => <Contact
                 key={contact.id}
                 contact={contact}
-                chatMessages={chatMessages}/>)}
+                chatMessages={chatMessages}
+            />)}
         </div>);
 };
 

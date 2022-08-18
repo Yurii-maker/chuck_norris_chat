@@ -24,11 +24,13 @@ const Chat = () => {
             {
                 messages.map((message, i) => <Message key={i} text={message}/>)
             }
-            <TypeMessageForm id={id}
-                             chatMessages={chatMessages}
-                             setChatMessages={setChatMessages}
-                             setFoundContacts={setFoundContacts}
-                             foundContacts={foundContacts}/>
+            <TypeMessageForm
+                id={id}
+                chatMessages={chatMessages}
+                setChatMessages={setChatMessages}
+                setFoundContacts={setFoundContacts}
+                foundContacts={foundContacts}
+            />
         </div>);
 };
 

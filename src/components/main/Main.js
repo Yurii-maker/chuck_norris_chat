@@ -9,12 +9,13 @@ const Main = ({chatMessages, foundChats, foundContacts, setFoundChats, setFoundC
     return (
         <div className={'Main'}>
             <Profile/>
-            <ChatSearchForm setFoundContacts={setFoundContacts}
-                            setFoundChats={setFoundChats}
-                            chatMessages={chatMessages}
-                            foundContacts={foundContacts}/>
-            <Contacts foundContacts={foundContacts}
-                      chatMessages={chatMessages}/>
+            <ChatSearchForm
+                setFoundContacts={setFoundContacts}
+                setFoundChats={setFoundChats}
+                chatMessages={chatMessages}
+                foundContacts={foundContacts}
+            />
+            <Contacts foundContacts={foundContacts} chatMessages={chatMessages}/>
             <FoundChats foundChats={foundChats}/>
         </div>
     );

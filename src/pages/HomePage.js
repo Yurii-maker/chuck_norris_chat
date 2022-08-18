@@ -18,16 +18,20 @@ const HomePage = () => {
 
     return (
         <div className={'HomePage'}>
-            <MyContext.Provider value={{
-                chatMessages,
-                setChatMessages,
-                foundContacts,
-                setFoundContacts}}>
-                <Main chatMessages={chatMessages}
-                      foundContacts={foundContacts}
-                      setFoundContacts={setFoundContacts}
-                      foundChats={foundChats}
-                      setFoundChats={setFoundChats}/>
+            <MyContext.Provider
+                value={{
+                    chatMessages,
+                    setChatMessages,
+                    foundContacts,
+                    setFoundContacts
+                }}>
+                <Main
+                    chatMessages={chatMessages}
+                    foundContacts={foundContacts}
+                    setFoundContacts={setFoundContacts}
+                    foundChats={foundChats}
+                    setFoundChats={setFoundChats}
+                />
                 <Outlet/>
             </MyContext.Provider>
         </div>

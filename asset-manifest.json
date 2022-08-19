@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chuck_norris_chat/static/css/main.35d973eb.css",
+    "main.js": "/chuck_norris_chat/static/js/main.fe6f22bb.js",
+    "index.html": "/chuck_norris_chat/index.html",
+    "main.35d973eb.css.map": "/chuck_norris_chat/static/css/main.35d973eb.css.map",
+    "main.fe6f22bb.js.map": "/chuck_norris_chat/static/js/main.fe6f22bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35d973eb.css",
+    "static/js/main.fe6f22bb.js"
+  ]
+}

@@ -32,10 +32,7 @@ const ChatSearchForm = ({
 
     return (
         <div className={'ChatSearchWrap'}>
-            <form
-                onChange={handleSubmit(search)}
-                onSubmit={handleSubmit(search)}
-            >
+            <form onChange={handleSubmit(search)}>
                 <input
                     className={'ChatSearchInput'}
                     type="text"

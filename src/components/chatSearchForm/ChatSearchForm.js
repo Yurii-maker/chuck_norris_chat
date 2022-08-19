@@ -1,20 +1,47 @@
 import {useForm} from "react-hook-form";
 
-const ChatSearchForm = ({setFoundContacts, setFoundChats, chatMessages, foundContacts}) => {
+import './ChatSearchForm.scss';
+
+const ChatSearchForm = ({
+                            members,
+                            foundMembers,
+                            foundChats,
+                            chatMessages,
+                            setFoundChats,
+                            setFoundMembers,
+                            setSortedContacts,
+                        }) => {
+
     const {register, handleSubmit} = useForm();
 
     const search = (data) => {
-        setFoundContacts(foundContacts.filter(contact => contact.name.toLowerCase()
+        setFoundMembers(members.filter(contact => contact.name.toLowerCase()
             .includes(data.searchWord.toLowerCase())));
 
         setFoundChats(chatMessages.filter(msg => msg.message.toLowerCase()
             .includes(data.searchWord.toLowerCase())));
+
+        if (!foundMembers.length && data.searchWord) {
+            setSortedContacts([]);
+        }
+
+        if (foundChats.length && !data.searchWord.length) {
+            setFoundChats([]);
+        }
     };
 
     return (
-        <div>
-            <form className={'CharSearchForm'} onChange={handleSubmit(search)}>
-                <input type="text" placeholder={'Search or start new contact'} {...register('searchWord')}/>
+        <div className={'ChatSearchWrap'}>
+            <form
+                onChange={handleSubmit(search)}
+                onSubmit={handleSubmit(search)}
+            >
+                <input
+                    className={'ChatSearchInput'}
+                    type="text"
+                    placeholder={'Search or start new contact'}
+                    {...register('searchWord')}
+                />
             </form>
         </div>);
 };

@@ -3,19 +3,37 @@ import {ChatSearchForm} from "../chatSearchForm/ChatSearchForm";
 import {Contacts} from "../contacts/Contacts";
 import {FoundChats} from "../foundChats/FoundChats";
 import './Main.scss'
+import {useState} from "react";
 
-const Main = ({chatMessages, foundChats, foundContacts, setFoundChats, setFoundContacts}) => {
+const Main = ({
+                  chatMessages,
+                  foundChats,
+                  members,
+                  foundMembers,
+                  setFoundChats,
+                  setFoundMembers
+              }) => {
+
+    const [sortedContacts, setSortedContacts] = useState([...members]);
 
     return (
         <div className={'Main'}>
             <Profile/>
             <ChatSearchForm
-                setFoundContacts={setFoundContacts}
-                setFoundChats={setFoundChats}
+                foundMembers={foundMembers}
+                foundChats={foundChats}
+                members={members}
                 chatMessages={chatMessages}
-                foundContacts={foundContacts}
+                setFoundChats={setFoundChats}
+                setFoundMembers={setFoundMembers}
+                setSortedContacts={setSortedContacts}
             />
-            <Contacts foundContacts={foundContacts} chatMessages={chatMessages}/>
+            <Contacts
+                chatMessages={chatMessages}
+                foundMembers={foundMembers}
+                sortedContacts={sortedContacts}
+                setSortedContacts={setSortedContacts}
+            />
             <FoundChats foundChats={foundChats}/>
         </div>
     );

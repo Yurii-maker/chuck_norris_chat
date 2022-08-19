@@ -14,13 +14,14 @@ const Contact = ({contact, chatMessages}) => {
 
     const lastMessage = sortedMessages[0].message;
 
-    return (<div className={'Contact'}>
-        <Link to={`${id}`} state={{id}}>
-            <div>{name} -- {lastMessageDate}</div>
-            <div>{lastMessage}</div>
-        </Link>
-        <hr/>
-    </div>);
+    return (
+        <div className={'Contact'}>
+            <Link to={`${id}`} state={{id}}>
+                <div>{name} -- {lastMessageDate}</div>
+                <div>{lastMessage}</div>
+            </Link>
+            <hr/>
+        </div>);
 };
 
 export {Contact};

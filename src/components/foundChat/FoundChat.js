@@ -1,7 +1,10 @@
 import {Link} from "react-router-dom";
 
 const FoundChat = ({chat}) => {
-    const {userId: id, message} = chat;
+    const {
+        userId: id,
+        message
+    } = chat;
 
     return (
         <div>

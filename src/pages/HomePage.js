@@ -13,24 +13,26 @@ const HomePage = () => {
     const contactsFromLS = JSON.parse(localStorage.getItem(keys.contacts)) || contacts;
 
     const [chatMessages, setChatMessages] = useState([...messagesFromLS]);
-    const [foundContacts, setFoundContacts] = useState([...contactsFromLS]);
+    const [members, setMembers] = useState([...contactsFromLS]);
     const [foundChats, setFoundChats] = useState([]);
+    const [foundMembers, setFoundMembers] = useState([]);
 
     return (
         <div className={'HomePage'}>
             <MyContext.Provider
                 value={{
                     chatMessages,
+                    members,
                     setChatMessages,
-                    foundContacts,
-                    setFoundContacts
+                    setMembers
                 }}>
                 <Main
                     chatMessages={chatMessages}
-                    foundContacts={foundContacts}
-                    setFoundContacts={setFoundContacts}
+                    members={members}
                     foundChats={foundChats}
+                    foundMembers={foundMembers}
                     setFoundChats={setFoundChats}
+                    setFoundMembers={setFoundMembers}
                 />
                 <Outlet/>
             </MyContext.Provider>

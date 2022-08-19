@@ -1,7 +1,17 @@
+import {useEffect} from "react";
+
 import {Contact} from "../contact/Contact";
 
-const Contacts = ({foundContacts, chatMessages}) => {
-    const sortedContacts = foundContacts.sort((a, b) => Date.parse(b.lastMessageDate) - Date.parse(a.lastMessageDate));
+const Contacts = ({
+                      chatMessages, foundMembers, sortedContacts, setSortedContacts
+                  }) => {
+
+    useEffect(() => {
+        if (foundMembers.length) {
+            setSortedContacts(foundMembers
+                .sort((a, b) => Date.parse(b.lastMessageDate) - Date.parse(a.lastMessageDate)));
+        }
+    }, [setSortedContacts, foundMembers]);
 
     return (
         <div>

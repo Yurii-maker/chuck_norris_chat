@@ -4,7 +4,14 @@ import {chuckNorrisService} from "../../services";
 import {keys} from "../../constants";
 
 
-const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setFoundContacts}) => {
+const TypeMessageForm = ({
+                             id,
+                             chatMessages,
+                             setChatMessages,
+                             members,
+                             setMembers
+                         }) => {
+
     const {
         register,
         handleSubmit,
@@ -14,15 +21,15 @@ const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setF
     const contactsSort = () => {
         const sortedContacts = [];
 
-        for (const contact of foundContacts) {
-            if (contact.id === id) {
-                contact.lastMessageDate = Date().slice(4, 21)
-                sortedContacts.push(contact)
+        for (const member of members) {
+            if (member.id === id) {
+                member.lastMessageDate = Date().slice(4, 21)
+                sortedContacts.push(member)
             } else {
-                sortedContacts.push(contact)
+                sortedContacts.push(member)
             }
         }
-        setFoundContacts([...sortedContacts]);
+        setMembers([...sortedContacts]);
 
         localStorage.setItem(keys.contacts, JSON.stringify([...sortedContacts]));
     };
@@ -30,6 +37,7 @@ const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setF
         if (!data.message) {
             return;
         }
+
         const newMessage = {
             userId: id,
             messageId: Date.now(),
@@ -39,6 +47,7 @@ const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setF
         };
 
         const chatMessageWithNewMessage = [...chatMessages, newMessage];
+
         setChatMessages([...chatMessages, newMessage]);
         localStorage.setItem(keys.messages, JSON.stringify([...chatMessages, newMessage]));
 
@@ -54,8 +63,10 @@ const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setF
                     message: response.value,
                     date: Date().slice(4, 21)
                 }
+
                 setChatMessages([...chatMessageWithNewMessage, messageFromChuck]);
-                localStorage.setItem(keys.messages, JSON.stringify([...chatMessageWithNewMessage, messageFromChuck]));
+                localStorage.setItem(keys.messages,
+                    JSON.stringify([...chatMessageWithNewMessage, messageFromChuck]));
             }).catch(e => alert(e));
 
             contactsSort();
@@ -67,7 +78,6 @@ const TypeMessageForm = ({id, chatMessages, setChatMessages, foundContacts, setF
                 <input type="text" placeholder={'Type your message'} {...register('message')}/>
                 <button>Send</button>
             </form>
-
         </div>
     );
 };

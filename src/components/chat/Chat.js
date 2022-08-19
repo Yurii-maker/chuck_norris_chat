@@ -9,8 +9,8 @@ const Chat = () => {
     const {
         chatMessages,
         setChatMessages,
-        foundContacts,
-        setFoundContacts
+        members,
+        setMembers
     } = useContext(MyContext);
 
     const location = useLocation();
@@ -28,8 +28,8 @@ const Chat = () => {
                 id={id}
                 chatMessages={chatMessages}
                 setChatMessages={setChatMessages}
-                setFoundContacts={setFoundContacts}
-                foundContacts={foundContacts}
+                setMembers={setMembers}
+                members={members}
             />
         </div>);
 };

@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="add scss">
+    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="some fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chat/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foundChat/FoundChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foundChat/FoundChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foundChats/FoundChats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foundChats/FoundChats.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typeMessageForm/TypeMessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typeMessageForm/TypeMessageForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/messages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +86,9 @@
       <workItem from="1660826338686" duration="1275000" />
       <workItem from="1660827632835" duration="151000" />
       <workItem from="1660827801171" duration="336000" />
-      <workItem from="1660828443967" duration="408000" />
+      <workItem from="1660828443967" duration="539000" />
+      <workItem from="1660902732655" duration="355000" />
+      <workItem from="1660903206200" duration="20100000" />
     </task>
     <task id="LOCAL-00001" summary="logic - done">
       <created>1660822615938</created>
@@ -124,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660828132079</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some fixes">
+      <created>1660828978239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660828978239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +169,8 @@
     <MESSAGE value="clean master" />
     <MESSAGE value="deleted" />
     <MESSAGE value="add scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scss" />
+    <MESSAGE value="some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,12 @@
+@import "../../App";
+
+.Profile {
+  background: $lightGreyColor;
+}
+.Avatar{
+  @include avatar()
+}
+
+.Check {
+  @include check()
+}

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="some fixes">
-      <change beforePath="$PROJECT_DIR$/src/components/chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chat/Chat.js" afterDir="false" />
-    </list>
+    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="some fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1660967965572" duration="11903000" />
       <workItem from="1660980705681" duration="2557000" />
       <workItem from="1660983544392" duration="91000" />
-      <workItem from="1660991275163" duration="1483000" />
+      <workItem from="1660991275163" duration="1796000" />
     </task>
     <task id="LOCAL-00001" summary="logic - done">
       <created>1660822615938</created>
@@ -177,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660992560042</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="some fixes">
+      <created>1660993055394</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660993055394</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,15 +1,15 @@
 import {useForm} from "react-hook-form";
 
 import './ChatSearchForm.scss';
+import {contacts} from "../../storage";
 
 const ChatSearchForm = ({
-                            members,
                             foundMembers,
-                            foundChats,
+                            members,
                             chatMessages,
                             setFoundChats,
                             setFoundMembers,
-                            setSortedContacts,
+                            setMembers,
                         }) => {
 
     const {register, handleSubmit} = useForm();
@@ -21,13 +21,15 @@ const ChatSearchForm = ({
         setFoundChats(chatMessages.filter(msg => msg.message.toLowerCase()
             .includes(data.searchWord.toLowerCase())));
 
-        if (!foundMembers.length && data.searchWord) {
-            setSortedContacts([]);
+        if (foundMembers.length) {
+            setMembers([...foundMembers]);
         }
 
-        if (foundChats.length && !data.searchWord.length) {
+        if(!data.searchWord){
+            setMembers([...contacts]);
             setFoundChats([]);
         }
+
     };
 
     return (

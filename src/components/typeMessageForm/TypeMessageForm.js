@@ -7,9 +7,9 @@ import {keys} from "../../constants";
 const TypeMessageForm = ({
                              id,
                              chatMessages,
-                             setChatMessages,
                              members,
-                             setMembers
+                             setMembers,
+                             setChatMessages,
                          }) => {
 
     const {
@@ -19,19 +19,19 @@ const TypeMessageForm = ({
     } = useForm();
 
     const contactsSort = () => {
-        const sortedContacts = [];
+        const sortedMembers = [];
 
         for (const member of members) {
             if (member.id === id) {
                 member.lastMessageDate = Date().slice(4, 21)
-                sortedContacts.push(member)
+                sortedMembers.push(member)
             } else {
-                sortedContacts.push(member)
+                sortedMembers.push(member)
             }
         }
-        setMembers([...sortedContacts]);
+        setMembers([...sortedMembers]);
 
-        localStorage.setItem(keys.contacts, JSON.stringify([...sortedContacts]));
+        localStorage.setItem(keys.contacts, JSON.stringify([...sortedMembers]));
     };
     const sendMessageGetResponse = (data) => {
         if (!data.message) {
@@ -49,6 +49,7 @@ const TypeMessageForm = ({
         const chatMessageWithNewMessage = [...chatMessages, newMessage];
 
         setChatMessages([...chatMessages, newMessage]);
+
         localStorage.setItem(keys.messages, JSON.stringify([...chatMessages, newMessage]));
 
         contactsSort();
@@ -65,13 +66,16 @@ const TypeMessageForm = ({
                 }
 
                 setChatMessages([...chatMessageWithNewMessage, messageFromChuck]);
-                localStorage.setItem(keys.messages,
-                    JSON.stringify([...chatMessageWithNewMessage, messageFromChuck]));
+
+                localStorage.setItem(keys.messages, JSON
+                    .stringify([...chatMessageWithNewMessage, messageFromChuck]));
+
             }).catch(e => alert(e));
 
             contactsSort();
         }, 10000);
     };
+
     return (
         <div>
             <form className={'CharSearchForm'} onSubmit={handleSubmit(sendMessageGetResponse)}>

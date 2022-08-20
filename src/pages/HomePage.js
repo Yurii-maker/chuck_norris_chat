@@ -11,11 +11,9 @@ export const MyContext = createContext({});
 const HomePage = () => {
     const messagesFromLS = JSON.parse(localStorage.getItem(keys.messages)) || messages;
     const contactsFromLS = JSON.parse(localStorage.getItem(keys.contacts)) || contacts;
-    const sortedContactsFromLS = JSON.parse(localStorage.getItem(keys.sortedContacts)) || contacts;
 
     const [chatMessages, setChatMessages] = useState([...messagesFromLS]);
     const [members, setMembers] = useState([...contactsFromLS]);
-    const [sortedContacts, setSortedContacts] = useState([...sortedContactsFromLS]);
     const [foundChats, setFoundChats] = useState([]);
     const [foundMembers, setFoundMembers] = useState([]);
 
@@ -30,13 +28,12 @@ const HomePage = () => {
                 }}>
                 <Main
                     chatMessages={chatMessages}
+                    foundMembers={foundMembers}
                     members={members}
                     foundChats={foundChats}
-                    foundMembers={foundMembers}
-                    sortedContacts={sortedContacts}
                     setFoundChats={setFoundChats}
                     setFoundMembers={setFoundMembers}
-                    setSortedContacts={setSortedContacts}
+                    setMembers={setMembers}
                 />
                 <Outlet/>
             </MyContext.Provider>

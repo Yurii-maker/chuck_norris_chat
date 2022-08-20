@@ -1,7 +1,6 @@
 const keys = {
     messages : 'messages',
-    contacts : 'contacts',
-    sortedContacts: 'sortedContacts'
+    contacts : 'contacts'
 };
 
 export {keys};

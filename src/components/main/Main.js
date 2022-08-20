@@ -6,32 +6,27 @@ import './Main.scss'
 
 const Main = ({
                   chatMessages,
-                  foundChats,
-                  members,
                   foundMembers,
-                  sortedContacts,
+                  members,
+                  foundChats,
                   setFoundChats,
                   setFoundMembers,
-                  setSortedContacts
+                  setMembers
               }) => {
-
     return (
         <div className={'Main'}>
             <Profile/>
             <ChatSearchForm
                 foundMembers={foundMembers}
-                foundChats={foundChats}
                 members={members}
                 chatMessages={chatMessages}
                 setFoundChats={setFoundChats}
                 setFoundMembers={setFoundMembers}
-                setSortedContacts={setSortedContacts}
+                setMembers={setMembers}
             />
             <Contacts
                 chatMessages={chatMessages}
-                foundMembers={foundMembers}
-                sortedContacts={sortedContacts}
-                setSortedContacts={setSortedContacts}
+                members={members}
             />
             <FoundChats foundChats={foundChats}/>
         </div>

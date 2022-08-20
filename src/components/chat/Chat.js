@@ -8,14 +8,14 @@ import {MyContext} from "../../pages";
 const Chat = () => {
     const {
         chatMessages,
-        setChatMessages,
         members,
-        setMembers
+        setMembers,
+        setChatMessages
     } = useContext(MyContext);
 
     const location = useLocation();
-
-    const {id} = location.state;
+    const pathName = location.pathname.split('/');
+    const id = +pathName[2];
 
     const messages = chatMessages.filter(item => item.userId === id);
 
@@ -27,9 +27,9 @@ const Chat = () => {
             <TypeMessageForm
                 id={id}
                 chatMessages={chatMessages}
+                members={members}
                 setChatMessages={setChatMessages}
                 setMembers={setMembers}
-                members={members}
             />
         </div>);
 };

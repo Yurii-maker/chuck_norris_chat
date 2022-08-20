@@ -1,1 +1,46 @@
+@import "../../App.scss";
 
+.ContactWrap {
+  display: flex;
+
+  width: 100%;
+
+
+}
+
+.Avatar {@include avatar()}
+.CheckContacts {
+  @include check();
+  top: -26px;
+  left: 41px
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.Link {
+  display: flex;
+  align-items: center;
+}
+
+.Date {
+  width: 30%;
+}
+
+.ContactData {
+  h4, p {
+    margin: 0
+  }
+;
+  width: 60%;
+}
+
+.AvatarWithData {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}

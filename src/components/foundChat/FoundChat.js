@@ -1,5 +1,7 @@
 import {Link} from "react-router-dom";
 
+import './FoundChat.scss';
+
 const FoundChat = ({chat}) => {
     const {
         userId: id,
@@ -7,9 +9,9 @@ const FoundChat = ({chat}) => {
     } = chat;
 
     return (
-        <div>
-            <Link to={`${id}`} state={{id}}>
-                {message}
+        <div className={'FoundChat'}>
+            <Link to={`${id}`}>
+                <p>{message}</p>
             </Link>
             <hr/>
         </div>);

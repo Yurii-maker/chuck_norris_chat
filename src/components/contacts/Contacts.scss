@@ -1,0 +1,19 @@
+@import "../../App.scss";
+
+.Contacts {
+  h2 {
+    color: $blueColor;
+  }
+
+  margin-left: 3%;
+
+
+  a {
+    @include noneDecorPointer()
+  }
+
+  a:hover {
+    color: red;
+  }
+
+}

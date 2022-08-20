@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+.FoundChats{
+background: $lightGreyColor;
+  a {
+@include noneDecorPointer()
+  }
+  a.text:active,
+  a:hover {
+    color: red;
+  }
+  h2 {color: $blueColor};
+}

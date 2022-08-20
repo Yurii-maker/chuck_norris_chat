@@ -4,6 +4,7 @@ import {useContext} from "react";
 import {Message} from "../message/Message";
 import {TypeMessageForm} from "../typeMessageForm/TypeMessageForm";
 import {MyContext} from "../../pages";
+import './Chat.scss';
 
 const Chat = () => {
     const {
@@ -20,7 +21,7 @@ const Chat = () => {
     const messages = chatMessages.filter(item => item.userId === id);
 
     return (
-        <div>
+        <div className={'ChatWrap'}>
             {
                 messages.map((message, i) => <Message key={i} text={message}/>)
             }

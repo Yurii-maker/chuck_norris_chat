@@ -34,11 +34,11 @@ const ChatSearchForm = ({
 
     return (
         <div className={'ChatSearchWrap'}>
-            <form onChange={handleSubmit(search)}>
+            <form className={'ChatSearchForm'} onChange={handleSubmit(search)}>
                 <input
                     className={'ChatSearchInput'}
                     type="text"
-                    placeholder={'Search or start new contact'}
+                    placeholder={'Search or start new chat'}
                     {...register('searchWord')}
                 />
             </form>

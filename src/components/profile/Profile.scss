@@ -4,9 +4,12 @@
   background: $lightGreyColor;
 }
 .Avatar{
-  @include avatar()
+  @include avatar();
+
 }
 
 .Check {
-  @include check()
+  @include check();
+  top: -5px;
+  left: -30px
 }

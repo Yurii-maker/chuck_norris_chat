@@ -2,7 +2,7 @@
   "name": "chuck_norris_chat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yurii-maker.github.io/chuck_norris_chat",
+  "homepage": "https://yurii-maker.github.io/chuck_norris_chat/:id",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

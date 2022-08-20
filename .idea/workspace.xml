@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="without /">
+    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="change url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +77,8 @@
       <workItem from="1660902732655" duration="355000" />
       <workItem from="1660903206200" duration="20437000" />
       <workItem from="1660938144864" duration="2291000" />
+      <workItem from="1660966881486" duration="338000" />
+      <workItem from="1660967965572" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="logic - done">
       <created>1660822615938</created>
@@ -151,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660940373330</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change url">
+      <created>1660967058113</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660967058113</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +190,8 @@
     <MESSAGE value="some fixes" />
     <MESSAGE value="add deploy" />
     <MESSAGE value="without /" />
-    <option name="LAST_COMMIT_MESSAGE" value="without /" />
+    <MESSAGE value="change url" />
+    <option name="LAST_COMMIT_MESSAGE" value="change url" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

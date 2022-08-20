@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="some fixes">
       <change beforePath="$PROJECT_DIR$/src/components/chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chat/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chatSearchForm/ChatSearchForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/typeMessageForm/TypeMessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typeMessageForm/TypeMessageForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/keys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/contacts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +77,7 @@
       <workItem from="1660967965572" duration="11903000" />
       <workItem from="1660980705681" duration="2557000" />
       <workItem from="1660983544392" duration="91000" />
-      <workItem from="1660991275163" duration="1173000" />
+      <workItem from="1660991275163" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="logic - done">
       <created>1660822615938</created>
@@ -178,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660970116353</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some fixes">
+      <created>1660992560042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660992560042</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,12 +200,12 @@
     <MESSAGE value="clean master" />
     <MESSAGE value="deleted" />
     <MESSAGE value="add scss" />
-    <MESSAGE value="some fixes" />
     <MESSAGE value="add deploy" />
     <MESSAGE value="without /" />
     <MESSAGE value="change url" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

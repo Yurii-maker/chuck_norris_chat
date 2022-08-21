@@ -13,6 +13,7 @@ const Main = ({
                   setFoundMembers,
                   setMembers
               }) => {
+
     return (
         <div className={'Main'}>
             <Profile/>

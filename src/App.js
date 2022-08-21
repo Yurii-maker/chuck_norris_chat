@@ -11,6 +11,7 @@ function App() {
                 <Route path='/chuck_norris_chat' element={<HomePage/>}>
                     <Route path={':id'} element={<Chat/>}/>
                 </Route>
+                <Route path={'/chuck_norris_chat/:id'} element={<HomePage/>}/>
             </Routes>
         </div>
     );

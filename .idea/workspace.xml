@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20e20b8c-706d-4b9b-8a39-041125e53cb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/notFoundPage/NotFoundPage.js" afterDir="false" />
+    <list default="true" id="20e20b8c-706d-4b9b-8a39-041125e53cb7" name="Changes" comment="add notFoundPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage/HomePage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chat/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/notFoundPage/NotFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/notFoundPage/NotFoundPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +64,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661088103346</updated>
-      <workItem from="1661088105888" duration="982000" />
+      <workItem from="1661088105888" duration="2142000" />
     </task>
+    <task id="LOCAL-00001" summary="add notFoundPage">
+      <created>1661089314790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661089314790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add notFoundPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add notFoundPage" />
   </component>
 </project>

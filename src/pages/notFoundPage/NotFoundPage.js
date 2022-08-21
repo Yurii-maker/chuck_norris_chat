@@ -1,12 +1,9 @@
-import {useLocation} from "react-router-dom";
-
 const NotFoundPage = () => {
-    const location = useLocation()
 
     return (
-        <div>
-            {location.href}
-        </div>
+        <>
+           <h1>PAGE NOT FOUND</h1>
+        </>
     );
 };
 

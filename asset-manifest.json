@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chuck_norris_chat/static/css/main.e8583503.css",
-    "main.js": "/chuck_norris_chat/static/js/main.e689d5ba.js",
+    "main.js": "/chuck_norris_chat/static/js/main.12211e3e.js",
     "index.html": "/chuck_norris_chat/index.html",
     "main.e8583503.css.map": "/chuck_norris_chat/static/css/main.e8583503.css.map",
-    "main.e689d5ba.js.map": "/chuck_norris_chat/static/js/main.e689d5ba.js.map"
+    "main.12211e3e.js.map": "/chuck_norris_chat/static/js/main.12211e3e.js.map"
   },
   "entrypoints": [
     "static/css/main.e8583503.css",
-    "static/js/main.e689d5ba.js"
+    "static/js/main.12211e3e.js"
   ]
 }

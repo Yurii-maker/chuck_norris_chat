@@ -17,7 +17,9 @@ const Chat = () => {
 
     const location = useLocation();
     const pathName = location.pathname.split('/');
-    const id = +pathName[2];
+    const idFromState = location.state.id;
+
+    const id = +pathName[2] || idFromState;
 
     const messages = chatMessages.filter(item => item.userId === id);
 

@@ -17,7 +17,7 @@ const FoundChat = ({chat}) => {
 
     return (
         <div className={'FoundChat'}>
-            <Link to={`${id}`}>
+            <Link to={`${id}`} state={{id}}>
                 <div className={'AvatarWithData'}>
                     <div>
                         <img className={'Avatar'} src={avatar} alt="avatar"/>

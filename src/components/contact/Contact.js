@@ -19,7 +19,7 @@ const Contact = ({contact, chatMessages}) => {
         <>
             <div className={'ContactWrap'}>
                 <div className={'Contact'}>
-                    <Link to={`${id}`} className={'Link'}>
+                    <Link to={`${id}`} className={'Link'} state={{id}}>
                         <div className={'AvatarWithData'}>
                             <div>
                                 <img className={'Avatar'} src={avatar} alt="avatar"/>

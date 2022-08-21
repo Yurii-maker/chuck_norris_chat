@@ -2,17 +2,17 @@
 
 .ContactWrap {
   display: flex;
-
   width: 100%;
-
-
 }
 
-.Avatar {@include avatar()}
+.Avatar {
+  @include avatar();
+}
+
 .CheckContacts {
   @include check();
   top: -26px;
-  left: 41px
+  left: 41px;
 }
 
 .Contact {
@@ -33,9 +33,9 @@
 
 .ContactData {
   h4, p {
-    margin: 0
+    margin: 0;
   }
-;
+
   width: 60%;
 }
 

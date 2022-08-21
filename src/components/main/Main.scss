@@ -3,4 +3,9 @@
   flex-direction: column;
   width: 30%;
   padding: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-left: 0.5px solid;
+  border-top: 0.5px solid;
+  border-bottom: 0.5px solid;
 }

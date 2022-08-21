@@ -1,5 +1,6 @@
 $lightGreyColor: #F5F5F5;
-$blueColor:#4397C3;
+$blueColor: #4397C3;
+$aquaColor: aqua;
 
 @mixin avatar {
   padding: 10px;
@@ -15,12 +16,13 @@ $blueColor:#4397C3;
   position: relative;
 }
 
-@mixin noneDecorPointer{
+@mixin noneDecorPointer {
   text-decoration: none;
   cursor: pointer;
 }
 
 .App {
   display: flex;
-
+  height: 100vh;
+  overflow: hidden;
 }

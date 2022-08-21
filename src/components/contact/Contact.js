@@ -18,15 +18,16 @@ const Contact = ({contact, chatMessages}) => {
     return (
         <>
             <div className={'ContactWrap'}>
-
                 <div className={'Contact'}>
-                    <Link to={`${id}`} state={{id}} className={'Link'}>
+                    <Link to={`${id}`} className={'Link'}>
                         <div className={'AvatarWithData'}>
                             <div>
                                 <img className={'Avatar'} src={avatar} alt="avatar"/>
-                                <img className={'CheckContacts'}
-                                     src="https://images.vexels.com/media/users/3/157890/isolated/lists/4f2c005416b7f48b3d6d09c5c6763d87-check-mark-circle-icon.png"
-                                     alt="check"/>
+                                <img
+                                    className={'CheckContacts'}
+                                    src="https://images.vexels.com/media/users/3/157890/isolated/lists/4f2c005416b7f48b3d6d09c5c6763d87-check-mark-circle-icon.png"
+                                    alt="check"
+                                />
                             </div>
                             <div className={'ContactData'}>
                                 <h4>
@@ -35,10 +36,11 @@ const Contact = ({contact, chatMessages}) => {
                                 <p>
                                     {lastMessage}
                                 </p>
-
                             </div>
                         </div>
-                        <h6 className={'Date'}> {lastMessageDate}</h6>
+                        <h6 className={'Date'}>
+                            {lastMessageDate}
+                        </h6>
                     </Link>
                 </div>
             </div>

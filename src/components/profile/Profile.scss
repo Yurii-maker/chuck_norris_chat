@@ -1,9 +1,10 @@
-@import "../../App";
+@import "../../App.scss";
 
 .Profile {
   background: $lightGreyColor;
 }
-.Avatar{
+
+.Avatar {
   @include avatar();
 
 }
@@ -11,5 +12,5 @@
 .Check {
   @include check();
   top: -5px;
-  left: -30px
+  left: -30px;
 }

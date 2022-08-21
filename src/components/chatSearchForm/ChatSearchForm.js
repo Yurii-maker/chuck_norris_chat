@@ -1,7 +1,7 @@
 import {useForm} from "react-hook-form";
 
-import './ChatSearchForm.scss';
 import {contacts} from "../../storage";
+import './ChatSearchForm.scss';
 
 const ChatSearchForm = ({
                             foundMembers,

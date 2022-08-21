@@ -1,0 +1,36 @@
+@import "../../App.scss";
+
+.FormWrap {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $lightGreyColor;
+
+  .MessageForm {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    width: 85%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+
+  .Btn {
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: white;
+    cursor: pointer;
+  }
+
+  .Btn:hover {
+    color: aqua;
+    background: $lightGreyColor;
+  }
+}

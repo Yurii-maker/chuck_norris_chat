@@ -2,7 +2,7 @@ import {useForm} from "react-hook-form";
 
 import {chuckNorrisService} from "../../services";
 import {keys} from "../../constants";
-
+import './TypeMessageForm.scss'
 
 const TypeMessageForm = ({
                              id,
@@ -11,7 +11,6 @@ const TypeMessageForm = ({
                              setMembers,
                              setChatMessages,
                          }) => {
-
     const {
         register,
         handleSubmit,
@@ -77,10 +76,10 @@ const TypeMessageForm = ({
     };
 
     return (
-        <div>
-            <form className={'CharSearchForm'} onSubmit={handleSubmit(sendMessageGetResponse)}>
+        <div className={'FormWrap'}>
+            <form className={'MessageForm'} onSubmit={handleSubmit(sendMessageGetResponse)}>
                 <input type="text" placeholder={'Type your message'} {...register('message')}/>
-                <button>Send</button>
+                <button className={'Btn'}>Send</button>
             </form>
         </div>
     );

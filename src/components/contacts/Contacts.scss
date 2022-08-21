@@ -5,15 +5,13 @@
     color: $blueColor;
   }
 
-  margin-left: 3%;
-
-
   a {
-    @include noneDecorPointer()
+    @include noneDecorPointer();
   }
 
   a:hover {
-    color: red;
+    color: $aquaColor;
   }
 
+  margin-left: 3%;
 }

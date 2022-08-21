@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="some fixes" />
+    <list default="true" id="20e20b8c-706d-4b9b-8a39-041125e53cb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/notFoundPage/NotFoundPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,19 +20,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DU4SXbExlWQjBlDufNC00MTBoS" />
+  <component name="ProjectId" id="2DfRLtyZWW4eMwdN9NxkfFYq4Am" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -33,229 +39,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yurii\WebstormProjects\chuck_norris_chat\src\pages\errorPage" />
+      <recent name="C:\Users\Yurii\WebstormProjects\chuck_norris_chat\src\pages\homePage" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2c9dacf8-3521-4ac1-964a-790381d1a131" name="Changes" comment="" />
-      <created>1660740333418</created>
+      <changelist id="20e20b8c-706d-4b9b-8a39-041125e53cb7" name="Changes" comment="" />
+      <created>1661088103346</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660740333418</updated>
-      <workItem from="1660740336513" duration="5072000" />
-      <workItem from="1660756136650" duration="383000" />
-      <workItem from="1660763891840" duration="475000" />
-      <workItem from="1660803900954" duration="103000" />
-      <workItem from="1660804015379" duration="14173000" />
-      <workItem from="1660819800265" duration="3117000" />
-      <workItem from="1660822947317" duration="304000" />
-      <workItem from="1660823263302" duration="646000" />
-      <workItem from="1660826338686" duration="1275000" />
-      <workItem from="1660827632835" duration="151000" />
-      <workItem from="1660827801171" duration="336000" />
-      <workItem from="1660828443967" duration="539000" />
-      <workItem from="1660902732655" duration="355000" />
-      <workItem from="1660903206200" duration="20437000" />
-      <workItem from="1660938144864" duration="2291000" />
-      <workItem from="1660966881486" duration="338000" />
-      <workItem from="1660967965572" duration="11903000" />
-      <workItem from="1660980705681" duration="2557000" />
-      <workItem from="1660983544392" duration="91000" />
-      <workItem from="1660991275163" duration="13233000" />
-      <workItem from="1661017699057" duration="2112000" />
-      <workItem from="1661060441312" duration="20663000" />
-      <workItem from="1661082767997" duration="1987000" />
+      <updated>1661088103346</updated>
+      <workItem from="1661088105888" duration="982000" />
     </task>
-    <task id="LOCAL-00001" summary="logic - done">
-      <created>1660822615938</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1660822615938</updated>
-    </task>
-    <task id="LOCAL-00002" summary="deleted">
-      <created>1660822990513</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1660822990513</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add idea">
-      <created>1660823118315</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1660823118315</updated>
-    </task>
-    <task id="LOCAL-00004" summary="clean master">
-      <created>1660827475884</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1660827475884</updated>
-    </task>
-    <task id="LOCAL-00005" summary="deleted">
-      <created>1660827687371</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1660827687371</updated>
-    </task>
-    <task id="LOCAL-00006" summary="deleted">
-      <created>1660827878383</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1660827878383</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add scss">
-      <created>1660828132079</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1660828132079</updated>
-    </task>
-    <task id="LOCAL-00008" summary="some fixes">
-      <created>1660828978239</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660828978239</updated>
-    </task>
-    <task id="LOCAL-00009" summary="some fixes">
-      <created>1660926712877</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1660926712877</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add deploy">
-      <created>1660939260789</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1660939260789</updated>
-    </task>
-    <task id="LOCAL-00011" summary="without /">
-      <created>1660940373330</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1660940373330</updated>
-    </task>
-    <task id="LOCAL-00012" summary="change url">
-      <created>1660967058113</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1660967058113</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fixes">
-      <created>1660970116353</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1660970116353</updated>
-    </task>
-    <task id="LOCAL-00014" summary="some fixes">
-      <created>1660992560042</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1660992560042</updated>
-    </task>
-    <task id="LOCAL-00015" summary="some fixes">
-      <created>1660993055394</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1660993055394</updated>
-    </task>
-    <task id="LOCAL-00016" summary="some fixes">
-      <created>1660993309213</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1660993309213</updated>
-    </task>
-    <task id="LOCAL-00017" summary="some fixes">
-      <created>1660993924660</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1660993924660</updated>
-    </task>
-    <task id="LOCAL-00018" summary="some fixes">
-      <created>1660994458745</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1660994458745</updated>
-    </task>
-    <task id="LOCAL-00019" summary="some fixes">
-      <created>1660994877856</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1660994877856</updated>
-    </task>
-    <task id="LOCAL-00020" summary="some fixes">
-      <created>1661019685879</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1661019685879</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add UI">
-      <created>1661075966658</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1661075966658</updated>
-    </task>
-    <task id="LOCAL-00022" summary="add UI">
-      <created>1661076515453</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1661076515453</updated>
-    </task>
-    <task id="LOCAL-00023" summary="some UI fixes">
-      <created>1661081983396</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1661081983396</updated>
-    </task>
-    <task id="LOCAL-00024" summary="some fixes">
-      <created>1661083447180</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1661083447180</updated>
-    </task>
-    <task id="LOCAL-00025" summary="some fixes">
-      <created>1661084761303</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1661084761303</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,24 +84,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="logic - done" />
-    <MESSAGE value="add idea" />
-    <MESSAGE value="clean master" />
-    <MESSAGE value="deleted" />
-    <MESSAGE value="add scss" />
-    <MESSAGE value="add deploy" />
-    <MESSAGE value="without /" />
-    <MESSAGE value="change url" />
-    <MESSAGE value="fixes" />
-    <MESSAGE value="add UI" />
-    <MESSAGE value="some UI fixes" />
-    <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

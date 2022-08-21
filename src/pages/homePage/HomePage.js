@@ -1,9 +1,9 @@
 import {Outlet} from "react-router-dom";
 import {createContext, useState} from "react";
 
-import {Main} from "../components";
-import {contacts, messages} from "../storage";
-import {keys} from "../constants";
+import {Main} from "../../components";
+import {contacts, messages} from "../../storage";
+import {keys} from "../../constants";
 import './HomePage.scss';
 
 export const MyContext = createContext({});

@@ -1,9 +1,5 @@
 $brdR20: 20px;
 
-.Mrg0 {
-  margin: 0;
-}
-
 .MsgWithDate {
   display: flex;
   flex-direction: column;
@@ -13,18 +9,19 @@ $brdR20: 20px;
 .FromUser {
   width: 95%;
   display: flex;
-  align-items: center;
 
   .Msg {
     border-radius: $brdR20;
     background: #3C4252;
     text-align: center;
     color: white;
+    padding: 3px;
   }
 
   h6 {
     display: flex;
     justify-content: left;
+    margin: 0;
   }
 }
 
@@ -33,15 +30,19 @@ $brdR20: 20px;
   justify-content: flex-end;
   width: 95%;
 
+
   .Msg {
     border-radius: $brdR20;
     background: #E0E0E0;
     text-align: center;
+    overflow-wrap: break-word;
+    padding: 3px;
   }
 
   h6 {
     display: flex;
     justify-content: right;
+    margin: 0;
   }
 }
 

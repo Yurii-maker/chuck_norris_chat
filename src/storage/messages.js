@@ -27,7 +27,7 @@ export const messages = [{
     messageId: 5,
     fromUser: true,
     message: 'im live in London',
-    date: 'Jun 20 2022 20:31'
+    date: 'Aug 13 2022 20:31'
 }, {
     userId: 3,
     messageId: 6,
@@ -39,5 +39,5 @@ export const messages = [{
     messageId: 7,
     fromUser: true,
     message: 'im live in Lviv',
-    date: 'Aug 08 2022 01:40'
+    date: 'Aug 09 2022 01:40'
 }];

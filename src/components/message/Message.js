@@ -20,8 +20,11 @@ const Message = ({text, avatar}) => {
     return (
         <div className={className}>
             {img && <img className={'Avatar'} src={avatar} alt='avatar'/>}
-            <div className={'MsgWithDate Mrgn0'}><p className={'Msg'}>{message}</p>
-                <h6 className={'Mrgn0'}>{date}</h6>
+            <div className={'MsgWithDate '}>
+                <p className={'Msg'}>
+                    {message}
+                </p>
+                <h6>{date}</h6>
             </div>
         </div>
     );

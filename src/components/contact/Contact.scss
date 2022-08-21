@@ -25,6 +25,7 @@
 .Link {
   display: flex;
   align-items: center;
+  column-gap: 10px;
 }
 
 .Date {
@@ -34,6 +35,7 @@
 .ContactData {
   h4, p {
     margin: 0;
+
   }
 
   width: 60%;
@@ -43,4 +45,5 @@
   display: flex;
   width: 70%;
   align-items: center;
+  overflow-wrap: break-word;
 }
